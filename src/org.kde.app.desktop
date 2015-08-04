@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=App Template
+GenericName=App Template
+Comment=An simple application template
+Comment[de]=Eine einfache Vorlagen-Anwendung
+Exec=app %U
+Terminal=false
+Type=Application
+Categories=Qt;KDE;Multimedia;Video;
+Icon=icon
