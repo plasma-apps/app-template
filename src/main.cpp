@@ -40,7 +40,7 @@ int main(int argc, char** argv)
 
 
     QCommandLineParser parser;
-    parser.addOption(QCommandLineOption("phone", i18n("Run the phone version of vPlayer")));
+    parser.addOption(QCommandLineOption("phone", i18n("Run the phone version of App")));
     parser.addHelpOption();
     parser.process(app);
 

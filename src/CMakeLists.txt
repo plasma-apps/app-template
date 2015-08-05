@@ -16,4 +16,4 @@ target_link_libraries(app
 
 install(TARGETS app ${INSTALL_TARGETS_DEFAULT_ARGS})
 
-install (FILES org.kde.app.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
+install (FILES org.kde.mobile.app.desktop DESTINATION ${XDG_APPS_INSTALL_DIR})
