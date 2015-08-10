@@ -2,6 +2,7 @@ project(VPlayer)
 cmake_minimum_required(VERSION 2.8.12)
 
 find_package(ECM 0.0.9 REQUIRED NO_MODULE)
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})
 
 find_package(Qt5 REQUIRED NO_MODULE COMPONENTS Qml Quick Widgets Test Sql)
 find_package(KF5 5.5 REQUIRED COMPONENTS Plasma I18n Declarative Config DBusAddons)
